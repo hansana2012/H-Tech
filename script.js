@@ -100,8 +100,8 @@ const videoData = [
   {
     title: "ඔයාට ගැලපෙන AI එක මොකක්ද?",
     desc: "What is the best AI for you?",
-    videoUrl:"https://www.youtube.com/embed/ytgC533vzm4HEKbU?si=ytgC533vzm4HEKbU",
-    videoId: "ytgC533vzm4HEKbU",
+    videoUrl:"https://youtu.be/E_5n3U8koE4?si=NXLmeoYlSBOQ8n-m",
+    videoId: "E_5n3U8koE4"
     thumbnailIcon: "fas fa-mobile-alt"
   },
   {
