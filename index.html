@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+  <meta name="description" content="H Tech - Official website for tech reviews, tutorials, and innovative content on YouTube">
+  <title>H Tech | Official Website</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="logo">
+        
+        <img class="img22"src="2.png"></img><span class="logo-text">H Tech</span>
+      </a>
+      <ul class="nav-menu" id="navMenu">
+        <li><a href="#home" class="nav-link active">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#videos" class="nav-link">Videos</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <i class="fas fa-bars"></i>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <!-- ========== HERO SECTION ========== -->
+    <section id="home" class="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <div class="hero-badge">🔥 Welcome to H Tech!</div>
+          <h1 class="hero-title">Innovation Meets <span class="gradient-text">Creativity</span></h1>
+          <p class="hero-desc">Your ultimate destination for tech reviews, DIY projects, and future-forward tutorials. Subscribe and join the H Tech family!</p>
+          <div class="hero-buttons">
+            <a href="https://www.youtube.com/@HTech6000" target="_blank" class="btn btn-primary">
+              <i class="fab fa-youtube"></i> Subscribe Now
+            </a>
+                      <div class="hero-buttons">
+            <a href="https://www.facebook.com/profile.php?id=61573894302772" target="_blank" class="btn btn-primary">
+              <i class="fab fa-facebook"></i>Follow Us
+            </a>
+            <a href="#videos" class="btn btn-outline">
+              <i class="fas fa-play-circle"></i> Watch Videos
+            </a>
+          </div>
+        </div>
+
+    </section>
+
+    <!-- ========== ABOUT SECTION ========== -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Who We Are</span>
+          <h2>About <span class="gradient-text">H Tech</span></h2>
+          <p>Passionate about technology, dedicated to delivering high-quality content that inspires and educates.</p>
+        </div>
+        <div class="about-grid">
+          <div class="about-card">
+            <i class="fas fa-chalkboard-teacher"></i>
+            <h3>Expert Tutorials</h3>
+            <p>Step-by-step guides on coding, gadgets, and software that make tech simple.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-newspaper"></i>
+            <h3>Honest Reviews</h3>
+            <p>Unbiased reviews of the latest smartphones, laptops, and wearables.</p>
+          </div>
+          <div class="about-card">
+            <i class="fas fa-users"></i>
+            <h3>Community First</h3>
+            <p>1M+ subscribers & growing — we value every like, share & comment.</p>
+          </div>
+        </div>
+      </div>
+      
+      <div class="developers-section">
+    <h3 class="developers-title"><i class="fas fa-code"></i> Developer</h3>
+    <div class="developers-grid">
+        <!-- Developer 1 -->
+        <div class="developer-card">
+            <div class="developer-avatar">
+                <img src="IMG-20260409-WA0007.jpg"></img>
+            </div>
+            <h3>G. Hansana Gayesh</h3>
+            <div class="developer-role">Head Developer</div>
+            <div class="developer-bio">Founder of H Tech</div>
+        </div>
+        </div>
+    </section>
+
+    <!-- ========== VIDEOS SECTION (YouTube Gallery) ========== -->
+    <section id="videos" class="videos">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Latest Creations</span>
+          <h2>Popular <span class="gradient-text">Videos</span></h2>
+          <p>Handpicked tech content from our YouTube channel. Click & watch!</p>
+        </div>
+        <div class="video-grid" id="videoGrid">
+          <!-- Dynamic video cards injected via JS -->
+        </div>
+        <div class="video-cta">
+          <a href="https://www.youtube.com/@HTech" target="_blank" class="btn btn-secondary">
+            <i class="fab fa-youtube"></i> Visit Full Channel
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== CONTACT / NEWSLETTER SECTION ========== -->
+    <section id="contact" class="contact">
+      <div class="container contact-container">
+        <div class="contact-info">
+          <h2>Let's Connect <i class="fas fa-paper-plane"></i></h2>
+          <p>Have a collaboration idea? Want to suggest a review? Drop us a message — we’d love to hear from you.</p>
+          <ul class="contact-details">
+            <li><i class="fas fa-envelope"></i>supporthtech@gmail.com</li>
+            <li><i class="fab fa-youtube"></i> YouTube.com/@HTech</li>
+            <li><i class="fab fa-whatsapp"></i>074-171-9040</li>
+          </ul>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="input-group">
+              <input type="text" id="name" placeholder="Your name" required>
+            </div>
+            <div class="input-group">
+              <input type="email" id="email" placeholder="Email address" required>
+            </div>
+            <div class="input-group">
+              <textarea id="message" rows="4" placeholder="Your message..."></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary full-width">Send Message <i class="fas fa-arrow-right"></i></button>
+            <p id="formFeedback" class="form-feedback"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- ========== PRIVACY POLICY SECTION ========== -->
+  <section id="privacy" class="page-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Legal</span>
+        <h2>Privacy <span class="gradient-text">Policy</span></h2>
+      </div>
+      <div class="content-card">
+        <h3>Information We Collect</h3>
+        <p>At H Tech, we collect information that you provide directly to us, including your name, email address, and any other information you provide when contacting us. We also collect usage data about how you interact with our website.</p>
+        
+        <h3>How We Use Your Information</h3>
+        <p>We use the collected information to respond to your inquiries, improve our website and content, send updates about our YouTube channel, and analyze website traffic.</p>
+        
+        <h3>Cookies & Tracking</h3>
+        <p>We use cookies to enhance your browsing experience. Cookies are small files stored on your device that help us understand how you use our website.</p>
+        
+        <h3>Third-Party Services</h3>
+        <p>We use third-party services including YouTube for video content, Google Translate for language features, and Font Awesome for icons.</p>
+        
+        <h3>Contact Us</h3>
+        <p>For privacy-related questions, contact us at <strong>supporthtech@gmail.com</strong></p>
+        
+        <p class="last-updated"><i class="far fa-calendar-alt"></i> Last Updated: April 19, 2025</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TERMS OF USE SECTION ========== -->
+  <section id="terms" class="page-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Legal</span>
+        <h2>Terms of <span class="gradient-text">Use</span></h2>
+      </div>
+      <div class="content-card">
+        <h3>Acceptance of Terms</h3>
+        <p>By accessing and using H Tech website, you agree to be bound by these Terms of Use. If you disagree with any part of these terms, please do not use our website.</p>
+        
+        <h3>Use of Content</h3>
+        <p>All content on this website, including text, graphics, logos, and videos, is the property of H Tech and protected by copyright laws. You may not reproduce, distribute, or modify any content without prior written permission.</p>
+        
+        <h3>User Conduct</h3>
+        <p>When using our website, you agree not to violate any applicable laws, post harmful content, attempt unauthorized access, or use our website for fraudulent purposes.</p>
+        
+        <h3>Disclaimer of Warranties</h3>
+        <p>H Tech provides the website "as is" without any warranties. We do not guarantee that the website will be error-free or uninterrupted.</p>
+        
+        <h3>Contact Us</h3>
+        <p>If you have any questions about these Terms, please contact us at <strong>supporthtech@gmail.com</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== TECH BLOG SECTION ========== -->
+  <section id="blog" class="page-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Resources</span>
+        <h2>Tech <span class="gradient-text">Blog</span></h2>
+        <p>Latest news, reviews, and insights from the tech world</p>
+      </div>
+      <div class="blog-grid">
+        <div class="blog-card">
+          <div class="blog-icon"><i class="fas fa-mobile-alt"></i></div>
+          <h3>Top 5 Smartphones of 2025</h3>
+          <p>Discover the best smartphones with revolutionary features and AI integration.</p>
+          <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="blog-card">
+          <div class="blog-icon"><i class="fas fa-microchip"></i></div>
+          <h3>Next-Gen Processors</h3>
+          <p>Everything about the latest CPU architectures and performance improvements.</p>
+          <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+        <div class="blog-card">
+          <div class="blog-icon"><i class="fas fa-robot"></i></div>
+          <h3>AI Revolution 2025</h3>
+          <p>How artificial intelligence is transforming everyday technology.</p>
+          <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== GEAR GUIDE SECTION ========== -->
+  <section id="gear-guide" class="page-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Resources</span>
+        <h2>Gear <span class="gradient-text">Guide</span></h2>
+        <p>Recommended tech gear for every need</p>
+      </div>
+      <div class="gear-grid">
+        <div class="gear-card">
+          <i class="fas fa-laptop"></i>
+          <h3>Best Laptops 2025</h3>
+          <p>Top picks for students, professionals, and gamers</p>
+        </div>
+        <div class="gear-card">
+          <i class="fas fa-headphones"></i>
+          <h3>Best Headphones</h3>
+          <p>Noise-cancelling and wireless options</p>
+        </div>
+        <div class="gear-card">
+          <i class="fas fa-keyboard"></i>
+          <h3>Mechanical Keyboards</h3>
+          <p>Best switches and brands for typing/gaming</p>
+        </div>
+        <div class="gear-card">
+          <i class="fas fa-mouse"></i>
+          <h3>Gaming Mice</h3>
+          <p>Top-rated mice for precision and comfort</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== COMMUNITY SECTION ========== -->
+  <section id="community" class="page-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Resources</span>
+        <h2>Our <span class="gradient-text">Community</span></h2>
+        <p>Join thousands of tech enthusiasts worldwide</p>
+      </div>
+      <div class="community-stats">
+        <div class="stat-card">
+          <i class="fab fa-youtube"></i>
+          <h3>1M+</h3>
+          <p>Subscribers</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-eye"></i>
+          <h3>50M+</h3>
+          <p>Total Views</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-comments"></i>
+          <h3>100K+</h3>
+          <p>Comments</p>
+        </div>
+        <div class="stat-card">
+          <i class="fas fa-share-alt"></i>
+          <h3>500K+</h3>
+          <p>Shares</p>
+        </div>
+      </div>
+      <div class="community-links">
+        <a href="https://www.youtube.com/@HTech" class="btn btn-primary"><i class="fab fa-youtube"></i> Join on YouTube</a>
+        <a href="#" class="btn btn-outline"><i class="fab fa-facebook"></i> Join Facebook</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ========== SUPPORT SECTION ========== -->
+  <section id="support" class="page-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Resources</span>
+        <h2>Support <span class="gradient-text">Center</span></h2>
+        <p>How can we help you today?</p>
+      </div>
+      <div class="support-grid">
+        <div class="support-card">
+          <i class="fas fa-envelope"></i>
+          <h3>Email Us</h3>
+          <p>supporthtech@gmail.com</p>
+          <p>Response within 24 hours</p>
+        </div>
+        <div class="support-card">
+          <i class="fab fa-whatsapp"></i>
+          <h3>WhatsApp</h3>
+          <p>074-171-9040</p>
+          <p>Mon-Fri, 9AM-6PM</p>
+        </div>
+        <div class="support-card">
+          <i class="fab fa-youtube"></i>
+          <h3>YouTube</h3>
+          <p>YouTube.com/@HTech</p>
+          <p>Leave a comment on any video</p>
+        </div>
+        <div class="support-card">
+          <i class="fas fa-question-circle"></i>
+          <h3>FAQ</h3>
+          <p>Check our frequently asked questions</p>
+          <a href="#">View FAQs →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- ========== VIDEO MODAL ========== -->
+  <div id="videoModal" class="modal">
+    <div class="modal-content">
+      <span class="modal-close">&times;</span>
+      <div class="modal-video-container">
+        <iframe id="youtubePlayer" width="100%" height="400" src="" 
+          title="YouTube video player" frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+      </div>
+      <div class="modal-video-info">
+        <h3 id="modalTitle"></h3>
+        <p id="modalDesc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container footer-container">
+      <div class="footer-brand">
+        <div class="logo">
+          <img class="img22"src="2.png">
+          <span class="logo-text">H Tech</span>
+        </div>
+        <p>Empowering the tech community with next-level content. Stay curious, stay innovative.</p>
+        <div class="social-links">
+          <a href="#" aria-label="YouTube"><i class="fab fa-youtube"></i></a>
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <div class="link-column">
+          <h4>Explore</h4>
+          <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <h4>Resources</h4>
+          <ul>
+            <li><a href="#">Tech Blog</a></li>
+            <li><a href="#">Gear Guide</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Support</a></li>
+          </ul>
+        </div>
+        <div class="link-column">
+          <h4>Legal</h4>
+          <ul>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="container">
+        <p>&copy; 2026 H Tech. All rights reserved. Designed for innovation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
