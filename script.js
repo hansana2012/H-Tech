@@ -142,7 +142,7 @@ const videoData = [
   {
     title: "AI වලින් සින්දු හදමු.",
     desc: "How to generate Songs using AI?",
-    videoUrl: "https://youtu.be/kisNQxDPGOU?si=ZK1oNDkBx79y_lWz",
+    videoUrl: "https://www.youtube.com/embed/kisNQxDPGOU?si=ZK1oNDkBx79y_lWz",
     videoId: "kisNQxDPGOU",
     thumbnailIcon: "fas fa-home"
   },
