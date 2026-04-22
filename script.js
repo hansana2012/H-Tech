@@ -146,14 +146,14 @@ const videoData = [
     videoId: "kisNQxDPGOU",
     thumbnailIcon: "fas fa-home"
   },
-    {
+  {
     title: "AI වලින් Apps හදමු.",
     desc: "How to generate Apps using AI?මු",
     videoUrl: "https://www.youtube.com/embed/kisNQxDPGOU?si=X5sm4sPc-KpQbrT-",
     videoId: "kisNQxDPGOU",
     thumbnailIcon: "fas fa-home"
   },
-    {
+  {
     title: "HTML ගැන හැදින්වීමක්",
     desc: "Little introduction about HTML",
     videoUrl: "https://www.youtube.com/embed/2Qp9iLyNEF0?si=mno345",
